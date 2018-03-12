@@ -1,0 +1,16 @@
+{
+  "name": "HTMLViewer",
+  "category": "office",
+  "title": {
+    "en_EN": "HTML Viewer"
+  },
+  "description": {
+    "en_EN": "HTML Viewer"
+  },
+  "mimes": [
+    "^text\/html?"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
