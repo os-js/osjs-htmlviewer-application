@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/os-js/osjs-htmlviewer-package/issues"
   },
-  "homepage": "https://github.com/os-js/osjs-htmlviewer-package#readme"
+  "homepage": "https://github.com/os-js/osjs-htmlviewer-package#readme",
+  "osjs": {
+    "type": "package"
+  }
 }
