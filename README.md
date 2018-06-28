@@ -12,5 +12,3 @@
 # OS.js v3 HTML Viewer Package
 
 This is the HTML Viewer Package for OS.js v3
-
-**PLEASE NOTE THAT THIS IS AN ALPHA PRE-RELEASE AND SUBJECT TO CHANGE WITHOUT NOTICE**
