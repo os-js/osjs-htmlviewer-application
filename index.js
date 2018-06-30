@@ -35,15 +35,15 @@ import {
 
 import {
   Box,
-  BoxContainer,
   Iframe
 } from '@osjs/gui';
 
 const view = (core, proc, win) =>
   (state, actions) => h(Box, {}, [
-      h(BoxContainer, {grow: 1, fill: true}, [
-        h(Iframe, {src: state.src, fill: true})
-      ])
+      h(Iframe, {
+        box: {grow: 1},
+        src: state.src
+      })
     ]);
 
 const openFile = async (core, proc, win, a, file) => {
