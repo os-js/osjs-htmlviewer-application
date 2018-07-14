@@ -69,6 +69,7 @@ OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata
   proc.createWindow({
     id: 'HTMLViewerWindow',
     title: metadata.title.en_EN,
+    icon: proc.resource(metadata.icon),
     dimension: {width: 400, height: 400}
   })
     .on('destroy', () => proc.destroy())

@@ -1,6 +1,7 @@
 {
   "name": "HTMLViewer",
   "category": "office",
+  "icon": "icon.png",
   "title": {
     "en_EN": "HTML Viewer"
   },
