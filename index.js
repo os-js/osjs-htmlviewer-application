@@ -40,18 +40,18 @@ import {
 
 const view = (core, proc, win) =>
   (state, actions) => h(Box, {}, [
-      h(Iframe, {
-        box: {grow: 1},
-        src: state.src
-      })
-    ]);
+    h(Iframe, {
+      box: {grow: 1},
+      src: state.src
+    })
+  ]);
 
 const openFile = async (core, proc, win, a, file) => {
   const url = await core.make('osjs/vfs').url(file.path);
   const ref = Object.assign({}, file, {url});
 
   if (file.mime.match(/^text\/html?/)) {
-    a.setSource(ref.url)
+    a.setSource(ref.url);
   }
 
   win.setTitle(`${proc.metadata.title.en_EN} - ${file.filename}`);
@@ -84,7 +84,7 @@ OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata
       if (args.file) {
         openFile(core, proc, win, a, args.file);
       }
-    })
+    });
 
   return proc;
 });
