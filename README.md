@@ -12,3 +12,11 @@
 # OS.js v3 HTML Viewer Package
 
 This is the HTML Viewer Package for OS.js v3
+
+## Installation
+
+```bash
+npm install --save @osjs/htmlviewer-application
+npm run package:discover
+npm run build:manifest
+```
