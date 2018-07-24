@@ -12,6 +12,6 @@
     "^text\/html?"
   ],
   "files": [
-    "index.js"
+    "main.js"
   ]
 }
