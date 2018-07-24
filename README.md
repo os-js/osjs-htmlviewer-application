@@ -18,5 +18,4 @@ This is the HTML Viewer Package for OS.js v3
 ```bash
 npm install --save @osjs/htmlviewer-application
 npm run package:discover
-npm run build:manifest
 ```
