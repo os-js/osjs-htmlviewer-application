@@ -13,6 +13,8 @@
 
 This is the HTML Viewer Package for OS.js v3
 
+![Screenshot](https://raw.githubusercontent.com/os-js/osjs-htmlviewer-application/master/screenshot.png)
+
 ## Installation
 
 ```bash
