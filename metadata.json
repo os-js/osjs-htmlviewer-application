@@ -4,11 +4,11 @@
   "icon": "icon.png",
   "title": {
     "en_EN": "HTML Viewer",
-    "fr_FR": "Visualiseur HTML"
+    "fr_FR": "Visualiseur de fichier HTML"
   },
   "description": {
     "en_EN": "HTML Viewer",
-    "fr_FR": "Visualiseur HTML"
+    "fr_FR": "Visualiseur de fichier HTML"
   },
   "mimes": [
     "^text\/html?"
