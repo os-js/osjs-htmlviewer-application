@@ -4,10 +4,12 @@
   "icon": "icon.png",
   "title": {
     "en_EN": "HTML Viewer",
+    "nb_NO": "HTML Fremviser",
     "fr_FR": "Visualiseur de fichier HTML"
   },
   "description": {
-    "en_EN": "HTML Viewer",
+    "en_EN": "View HTML files",
+    "nb_NO": "Vis HTML filer",
     "fr_FR": "Visualiseur de fichier HTML"
   },
   "mimes": [
