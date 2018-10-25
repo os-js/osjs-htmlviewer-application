@@ -84,6 +84,15 @@ OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata
       if (args.file) {
         openFile(core, proc, win, a, args.file);
       }
+
+      win.on('drop', (ev, data) => {
+        if (data.isFile && data.mime) {
+          const found = metadata.mimes.find(m => (new RegExp(m)).test(data.mime));
+          if (found) {
+            openFile(core, proc, win, a, data);
+          }
+        }
+      });
     });
 
   return proc;
