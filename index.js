@@ -36,7 +36,7 @@ import {
 import {
   Box,
   Iframe
-} from '@osjs/gui';
+} from '@osjs/gui/index.js';
 
 const view = (core, proc, win) =>
   (state, actions) => h(Box, {}, [
