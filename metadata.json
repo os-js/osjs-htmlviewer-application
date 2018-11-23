@@ -5,12 +5,14 @@
   "title": {
     "en_EN": "HTML Viewer",
     "nb_NO": "HTML Fremviser",
-    "fr_FR": "Visualiseur de fichier HTML"
+    "fr_FR": "Visualiseur de fichier HTML",
+    "de_DE": "HTML-Viewer"
   },
   "description": {
     "en_EN": "View HTML files",
     "nb_NO": "Vis HTML filer",
-    "fr_FR": "Visualiseur de fichier HTML"
+    "fr_FR": "Visualiseur de fichier HTML",
+    "de_DE": "HTML-Viewer"
   },
   "mimes": [
     "^text\/html?"
