@@ -60,6 +60,9 @@ const openFile = async (core, proc, win, a, file) => {
 
 
 OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata) => {
+  const title = core.make('osjs/locale')
+    .translatableFlat(metadata.title);
+
   const proc = core.make('osjs/application', {
     args,
     options,
@@ -68,7 +71,7 @@ OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata
 
   proc.createWindow({
     id: 'HTMLViewerWindow',
-    title: metadata.title.en_EN,
+    title,
     icon: proc.resource(metadata.icon),
     dimension: {width: 400, height: 400}
   })
