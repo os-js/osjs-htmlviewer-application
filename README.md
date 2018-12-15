@@ -18,6 +18,6 @@ This is the HTML Viewer Package for OS.js v3
 ## Installation
 
 ```bash
-npm install --save @osjs/htmlviewer-application
+npm install --save --production @osjs/htmlviewer-application
 npm run package:discover
 ```
