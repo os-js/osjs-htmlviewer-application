@@ -28,6 +28,9 @@
  * @licence Simplified BSD License
  */
 
+import osjs from 'osjs';
+import {name as applicationName} from './metadata.json';
+
 import {
   h,
   app
@@ -59,7 +62,7 @@ const openFile = async (core, proc, win, a, file) => {
 };
 
 
-OSjs.make('osjs/packages').register('HTMLViewer', (core, args, options, metadata) => {
+osjs.register(applicationName, (core, args, options, metadata) => {
   const title = core.make('osjs/locale')
     .translatableFlat(metadata.title);
 
