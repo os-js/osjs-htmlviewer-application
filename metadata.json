@@ -6,13 +6,15 @@
     "en_EN": "HTML Viewer",
     "nb_NO": "HTML Fremviser",
     "fr_FR": "Visualiseur de fichier HTML",
-    "de_DE": "HTML-Viewer"
+    "de_DE": "HTML-Viewer",
+    "pt_BR": "Visualizador de HTML"
   },
   "description": {
     "en_EN": "View HTML files",
     "nb_NO": "Vis HTML filer",
     "fr_FR": "Visualiseur de fichier HTML",
-    "de_DE": "HTML-Viewer"
+    "de_DE": "HTML-Viewer",
+    "pt_BR": "Visualize arquivos HTML"
   },
   "mimes": [
     "^text\/html?"
