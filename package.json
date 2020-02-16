@@ -30,7 +30,7 @@
     "type": "package"
   },
   "dependencies": {
-    "@osjs/gui": "^4.0.20",
+    "@osjs/gui": "^4.0.30",
     "hyperapp": "^1.2.9"
   },
   "devDependencies": {
